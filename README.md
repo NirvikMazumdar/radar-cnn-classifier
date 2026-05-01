@@ -198,3 +198,45 @@ This system demonstrates:
 - how radar-like data can be modeled using CNNs  
 - how synthetic data can bootstrap development  
 - how such systems can scale toward real-world sensor-driven applications  
+
+## Dataset
+
+### PASCAL VOC 2012 (Used in this Project)
+
+Download link (used in this project):
+https://www.robots.ox.ac.uk/~vgg/projects/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+
+Source:
+https://www.robots.ox.ac.uk/~vgg/projects/pascal/VOC/voc2012/
+
+This dataset (~2GB) was used to extract object classes and map them into:
+- Human (person)
+- Vehicle (car, bus, motorbike, etc.)
+- Other objects
+
+The images were then preprocessed and transformed into synthetic radar-like representations for classification.
+
+---
+
+### Future Work: Real Radar Dataset (CARRADA)
+
+To improve realism, future work will use actual radar data from:
+
+CARRADA Dataset:
+https://github.com/valeoai/carrada_dataset
+
+Paper:
+https://arxiv.org/abs/2006.09265
+
+This dataset provides:
+- Range-Doppler maps
+- Range-Angle representations
+- Real radar annotations for pedestrians and vehicles
+
+---
+
+### Note
+
+- The full dataset is not included in this repository due to size constraints  
+- A subset of test images is included for demonstration  
+- Users should download the dataset using the link above  
