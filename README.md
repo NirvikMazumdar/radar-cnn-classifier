@@ -93,6 +93,13 @@ pip install -r requirements.txt
 
 ## Run
 
+### Demo app
+
+```bash
+python app.py
+```
+
+---
 ### Train Model
 
 ```bash
